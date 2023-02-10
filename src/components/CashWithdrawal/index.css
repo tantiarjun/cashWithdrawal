@@ -1,0 +1,68 @@
+.bgContainer {
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: #150b3e;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.nameAndLogoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nameFirstLetter {
+  color: #7c3aed;
+  background-color: #c7d2fe;
+  margin-right: 50px;
+  padding-top: 33px;
+  padding-bottom: 33px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 70px;
+  font-size: 25px;
+}
+
+.fullName {
+  color: #c7d2fe;
+  margin-top: 30px;
+}
+.balanceContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.yourBalance {
+  font-size: 20px;
+  color: #585076;
+}
+.amount {
+  color: #ffffff;
+  font-size: 25px;
+  font-weight: bold;
+}
+.inRupees {
+  color: #585076;
+  font-weight: 500;
+}
+
+.withDraw {
+  font-size: 23px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.chooseLine {
+  color: #585076;
+  font-weight: 500;
+}
+.denominationList {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}
